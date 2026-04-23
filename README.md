@@ -14,26 +14,3 @@ Each forensic domain has its own summary document and supporting evidence.
 
 ---
 
-## Repository Structure
-
-├── Disk_Forensics/
-│   ├── acquisition.md
-│   ├── analysis.md
-│   └── findings.md
-│
-├── Network_Forensics/
-│   ├── analysis.md
-│   └── findings.md
-│
-├── Log_Forensics/
-│   ├── analysis.md
-│   └── findings.md
-│
-├── Evidence/
-│   ├── acquisition_screenshots/
-│   ├── analysis_screenshots/
-│   └── hashes.txt
-│
-└── Case_Notes/
-├── scenario.md
-└── final_summary.md
