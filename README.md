@@ -1,7 +1,5 @@
 # Deepfake Identity Abuse Case Study  
-_Forensic Overview and Methodology_
 
-## Case Summary
 This repository documents a simulated forensic investigation involving the creation and attempted concealment of identity‑abusive deepfake media. A USB device was submitted as evidence, and the goal of the investigation was to determine whether deepfake generation occurred, recover deleted artifacts, and reconstruct user activity.
 
 The investigation integrates **three forensic domains**, each documented in its own section of the repository:
