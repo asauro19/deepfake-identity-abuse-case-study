@@ -67,11 +67,11 @@ Used to examine timestamps, file sizes, and allocation status.
 screenshot here
 ---
 
-## 6. File Extraction & Recovery
+## 5. File Extraction & Recovery
 
 Deleted and allocated files were recovered using Sleuth Kit tools.  
 
-### 6.1 Identifying Deleted Directories
+### 5.1 Identifying Deleted Directories
 
 A deleted directory entry was identified using `istat`: 
 
@@ -84,7 +84,7 @@ Key observations:
 - The directory name appeared as `_utputs` (consistent with 8.3 filename)
 - A full list of sectors was provided, confirming recoverable content
 
-### 6.2 Bulk Recovery with tsk_recover
+### 5.2 Bulk Recovery with tsk_recover
 
 The deleted directory and its contents were recovered using:
 
@@ -93,7 +93,7 @@ tsk_recover -o 2048 evidence.dd recovered/
 
 This carved all recoverable files from the file system into the `recovered/` directory.
 
-### 6.3 Navigating the Recovered Artifacts
+### 5.3 Navigating the Recovered Artifacts
 
 Recovered directory structure:
 
