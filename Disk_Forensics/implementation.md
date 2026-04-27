@@ -37,6 +37,9 @@ The resulting image file was saved as **evidence.dd**.
 
 ![Disk Screenshot](diskss.jpg)
 
+
+![Disk Screenshot](diskS.jpg)
+
 ---
 
 ## 4. Partition & File System Analysis
@@ -48,7 +51,6 @@ Using Sleuth Kit:
 mmls evidence.dd
 
 ![Disk Screenshot](diskss1.jpeg)
-
 
 ### • File system enumeration:
 fls -r -0 2048 evidence.dd
