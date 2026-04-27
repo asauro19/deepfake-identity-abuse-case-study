@@ -76,7 +76,6 @@ istat -o 2048 evidence.dd 273418 (273418 was found from FLS command)
 Key observations:
 
 - The inode was **Not Allocated** (deleted)
-- The directory name appeared as `_utputs` (consistent with 8.3 filename)
 - A full list of sectors was provided, confirming recoverable content
 
 ### 5.2 Bulk Recovery with tsk_recover
