@@ -7,8 +7,7 @@ This document summarizes the results of the disk‑level forensic analysis perfo
 ## 1. Integrity Verification
 
 - A forensic image of the USB device was created using `dd`.
-- SHA‑256 hashes were generated for both the physical device and the acquired image.
-- The hash values matched, confirming a forensically sound acquisition.
+- A SHA‑256 hash were generated for integrity.
 
 ---
 
@@ -144,7 +143,7 @@ The deleted output video `taylor_swap_01.mp4` further confirms that Taylor was t
 
 ---
 
-## 7. Operational Security Assessment
+## 7. Offender Assesment
 
 The offender demonstrated **poor operational security**, suggesting inexperience:
 
