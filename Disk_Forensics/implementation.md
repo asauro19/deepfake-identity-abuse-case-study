@@ -59,13 +59,7 @@ This produced a recursive listing of files, directories, and deleted entries.
 
 ![Disk Screenshot](diskFLS.jpg)
 
-### • Metadata inspection:
-istat -o 2048 evidence.dd 273418
 
-
-Used to examine timestamps, file sizes, and allocation status.
-
-screenshot here
 ---
 
 ## 5. File Extraction & Recovery
@@ -76,8 +70,8 @@ Deleted and allocated files were recovered using Sleuth Kit tools.
 
 A deleted directory entry was identified using `istat`: 
 
-istat -o 2048 evidence.dd 273418
-screenshot here
+istat -o 2048 evidence.dd 273418 (273418 was found from FLS command)
+![Disk Screenshot](diskISTAT.jpg)
 
 Key observations:
 
