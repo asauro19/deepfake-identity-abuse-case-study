@@ -84,6 +84,7 @@ The deleted directory and its contents were recovered using:
 
 tsk_recover -o 2048 evidence.dd recovered/
 
+![Disk Screenshot](diskTSK.jpg)
 
 This carved all recoverable files from the file system into the `recovered/` directory.
 
@@ -92,16 +93,16 @@ This carved all recoverable files from the file system into the `recovered/` dir
 Recovered directory structure:
 
 recovered/
-└── finished-vids/
-└── faces/
-└── _ARLY~16.JPG
+   └── finished-vids/
+   └── faces/
+   └── _ARLY~16.JPG
 
 
 The presence of:
 
 - `finished-vids/`
 - `faces/`
-- `_ARLY~16.JPG` (8.3 short filename)
+- `_ARLY~16.JPG` 
 
 indicates that deleted media associated with deepfake output processing was successfully recovered.
 
