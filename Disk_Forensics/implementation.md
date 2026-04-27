@@ -57,7 +57,7 @@ fls -r -0 2048 evidence.dd
 
 This produced a recursive listing of files, directories, and deleted entries.
 
-screenshot here
+![Disk Screenshot](diskFLS.jpg)
 
 ### • Metadata inspection:
 istat -o 2048 evidence.dd 273418
