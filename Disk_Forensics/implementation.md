@@ -92,7 +92,11 @@ This carved all recoverable files from the file system into the `recovered/` dir
 
 Recovered directory structure:
 
-\\\recovered/ └── finished-vids/ └── faces/ └── _ARLY~16.JPG \\\
+recovered/
+└── finished-vids/
+    └── faces/
+        └── _ARLY~16.JPG
+
 
 
 The presence of:
