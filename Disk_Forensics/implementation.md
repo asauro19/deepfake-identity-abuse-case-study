@@ -35,6 +35,7 @@ sudo dd if=/dev/disk6 of=evidence.dd bs=4m conv=sync,noerror status=progress
 
 The resulting image file was saved as **evidence.dd**.
 
+![ugh](diskss.jpeg)
 ---
 
 
