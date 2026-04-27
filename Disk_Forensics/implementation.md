@@ -48,7 +48,7 @@ Using Sleuth Kit:
 ### • Partition layout:
 mmls evidence.dd
 
-screenshot here
+![Disk Screenshot](Disk_Forensics/diskss1.jpeg)
 
 
 ### • File system enumeration:
