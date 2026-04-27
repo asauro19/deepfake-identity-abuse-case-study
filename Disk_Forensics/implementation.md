@@ -90,13 +90,8 @@ This carved all recoverable files from the file system into the `recovered/` dir
 
 ### 5.3 Navigating the Recovered Artifacts
 
-Recovered directory structure:
 
-recovered/
-└── finished-vids/
-    └── faces/
-        └── _ARLY~16.JPG
-
+![Disk Screenshot](diskRecover.jpg)
 
 
 The presence of:
